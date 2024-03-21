@@ -1,0 +1,248 @@
+ body{
+    margin: 0;
+    background-color: #f6f6f2;
+}
+
+
+ /**************** for dark mode *******************/
+ .dark-body {
+    margin: 0;
+    background-color: #0e0e04;
+    color: #a9a9a9;
+}
+
+
+
+ /**************** Header: Logo and Nav *******************/
+ header{
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    /*box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.178);*/
+    height: 50px;
+}
+ .main-nav{
+    transition-duration:0.3s;
+    padding: 10px;
+    display: flex;
+    column-gap: 25px;
+}
+.main-nav a{
+    font-family: monospace;
+    text-decoration: none;
+    padding: 4px 10px;
+    font-size: 20px;
+    transition-duration:0.3s;
+}
+.main-nav a:hover{
+    color: #7f0000;
+}
+header svg :hover{
+    cursor: pointer;
+}
+#moon-icon{
+    display: none;
+}
+
+.a-home{
+    color:#141204 ;
+}
+.a-shop{
+    color: #E8985E;
+    border: solid #E8985E 2px;
+}
+.a-signup{
+    background-color: #262A10;
+    color: #ffffff;
+}
+
+
+
+ /**************** Main Content section *******************/
+
+ /**************** vid section*/   
+#intro{
+    display: flex;
+    width: 1100px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.vid-text h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #141204;
+}
+.vid-text h1 span{
+    color:#E8985E ;
+}
+.vid-text p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color:black;
+    font-family: serif;
+}
+.vid{ 
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    align-self: center;
+}
+.member-btn{
+    width: 250px;
+    background-color: #A9714B;    
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    transition-duration: 0.3s;
+}
+.member-btn:hover{
+    background-color: #262A10;
+    cursor: pointer;
+}
+
+
+
+ /**************** info section *******************/
+#container{
+    max-width: 1100px;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-between;
+
+}
+.heading{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #E8985E;
+}
+.sub{
+    color: #262A10;
+    margin: -1rem 0;
+}
+
+
+
+ /**************** Card Section *******************/
+main{
+    justify-content: center;
+    width: 1100px;
+    margin: auto;
+}
+.product-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto 20px auto;
+    width: 1100px;
+    align-items: baseline;
+}
+.product-nav a, main a{
+    text-decoration: none;
+}
+.product-nav a{
+    color: #262A10;
+}
+.product-nav h2{
+    margin: 0;
+    color: #262A10;
+}
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.card{
+    border-radius: 20px;
+    background-color:#e8985e52;
+    width:250px;
+    margin: auto;
+}
+.review-container{
+    opacity: 0%;
+    position: absolute;
+    margin: 190px 0 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+.hover-image {
+    filter: brightness(0.4);
+}
+.hover-review{
+    opacity: 100%;
+}
+
+.img-2{
+    border-radius: 20px 20px 0px 0px;
+    transition-duration: 0.5s;
+}
+.discription{
+    padding: 20px;
+}
+.discription h3{
+    font-family: sans-serif;
+    color: #262A10;
+}
+.discription a{
+    font-family: sans-serif;
+    color: #262A10;
+    transition-duration:0.3s;
+}
+.discription a:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+ /****************  Footer  *******************/
+footer{
+    background-color: #141204;
+    color: #f6f6f2;
+    padding: 5rem;
+    margin-top: 2rem;
+}
+.footer-container{
+    max-width:1100px;
+    margin: 0 auto;
+}
+.footer-main{
+    display: flex;
+    align-items: center;
+}
+.foot-img{
+    width: 70%;
+}
+.col-1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.col-2{
+    width: 35%;
+}
+.col-2 a{
+    text-decoration: none;
+    padding-left: 1rem;
+    color:#A9714B;
+}
+.col-2 p{
+    text-decoration: none;
+    padding-left: 1rem;
+    color:#A9714B;
+}
+.col-3{
+    width: 35%;
+    display: flex;
+    justify-content: end;
+}
+.col-3 img{
+    padding-right: 3rem;
+}

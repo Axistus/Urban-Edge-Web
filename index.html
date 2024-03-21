@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <link rel="icon" type="image/x-icon" href="image/favicon.png">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Urban Edge</title>
+</head>
+
+<body>
+<!-- ************************ Header ************************ -->
+     <header>
+        <img src="image/12 - brand-logo.svg" id="img-1" width="150" alt="myshop logo">
+        <nav class="main-nav">
+            <a href="index.html" class="a-home" id="selected">HOME</a>
+            <a href="shop.html" class="a-shop">SHOP</a>
+            <a href="signup.html" class="a-signup">CAREERS</a>
+
+            <svg viewBox="0 0 512 512" width="25px" id="sun-icon" onclick="darkMode()">
+                <g id="Sun">
+                    <path d="M255.8,120a136,136,0,1,0,136,136.05v0A136.17,136.17,0,0,0,255.8,120Z" style="fill:#1e1e1e"/>
+                    <path d="M472,232H440a24,24,0,0,0,0,48h32a24,24,0,0,0,0-48Z" style="fill:#1e1e1e"/>
+                    <path d="M255.8,416a24,24,0,0,0-24,24v32a24,24,0,1,0,48,0V440A24,24,0,0,0,255.8,416Z" style="fill:#1e1e1e"/>
+                    <path d="M96,256.05a24,24,0,0,0-24-24H40a24,24,0,1,0,0,48H72A24,24,0,0,0,96,256.05Z" style="fill:#1e1e1e"/>
+                    <path d="M255.8,96a24,24,0,0,0,24-24V40a24,24,0,0,0-48,0V72a24,24,0,0,0,24,24Z" style="fill:#1e1e1e"/>
+                    <path d="M402.89,142.87l22.63-22.63a24,24,0,0,0-33.85-34l-.07.07L369,109a24,24,0,0,0,33.86,34Z" style="fill:#1e1e1e"/>
+                    <path d="M402.89,369.22a24,24,0,0,0-34,33.87l.06.05,22.63,22.63a24,24,0,0,0,34-33.86l-.06-.06Z" style="fill:#1e1e1e"/>
+                    <path d="M108.7,369.22,86.07,391.85a24,24,0,1,0,33.85,34l.07-.07,22.63-22.63a24,24,0,1,0-33.86-34Z" style="fill:#1e1e1e"/>
+                    <path d="M108.7,142.87a24,24,0,1,0,34-33.89l0,0L120,86.32a24,24,0,1,0-34,33.83l.09.09Z" style="fill:#1e1e1e"/>
+                </g>
+            </svg>
+            <svg viewBox="0 0 312.81 311.51" width="25px" id="moon-icon"  onclick="lightMode()">
+                <path d="M305.2,178.16a11,11,0,0,0-9.2,2A117.36,117.36,0,0,1,260.4,201a111.48,111.48,0,0,1-40.4,7.2A117.45,117.45,0,0,1,102.4,90.56a123.27,123.27,0,0,1,6.4-38.8A107.41,107.41,0,0,1,128,17.36,10.21,10.21,0,0,0,126.4,3a11,11,0,0,0-9.2-2,161.41,161.41,0,0,0-84.8,56.8,158.38,158.38,0,1,0,280,132.8A9.71,9.71,0,0,0,305.2,178.16Z" transform="translate(0 -0.65)" id="moon-icon-col" style="fill:#a3a3a3"/>
+            </svg>
+        </nav>
+     </header> 
+        
+<!-- ************************ Main Content ************************ -->
+
+<!-- ************************  INTRO  ************************ -->
+    
+    <section id="intro">    
+        <div class="vid-text" style="width: 50%;">
+            <h1 class="h1-idx"><span>BEST</span> CLOTHING <span>QUALITY</span> IN TOWN</h1>
+            <p>Step into a world where style meets comfort, and every garment tells a story. Our passion for fashion drives us to curate the finest collection of clothing, blending contemporary trends with timeless elegance. From everyday essentials to statement pieces, we invite you to explore our diverse range designed to inspire confidence and elevate your wardrobe. Embrace individuality, celebrate diversity, and redefine your personal style</p>
+            <button class="member-btn" onclick="">Become a member</button>
+        </div>
+        <video class="vid" controls>
+            <source src="videos/27 - intro-video.mp4">
+        </video>
+    </section>
+
+    <br>
+    
+<!-- ************************ INFO PART **************************-->
+    
+    <section id="information">
+        <div id="container">
+            <div class="r-1" >
+                <p class="heading">NEW DESIGNS<p>
+                <p class="sub">Every Festive season</p>
+            </div>
+            <div class="r-2">
+                <p class="heading">EXPERTLY TAILORED</p>
+                <p class="sub">To your comfort</p>
+            </div>
+            <div class="r-3" >
+                <p class="heading">7 DAY</p>
+                <p class="sub">Return Policy</p>
+            </div>
+            <div class="r-4" >
+                <p class="heading">WORLD CLASS</p>
+                <p class="sub">Professionals to get suggestions from<p>
+            </div>
+        </div>
+    </section>    
+
+<!-- ************************  Card  ************************ -->
+    
+    <div class="product-nav">
+        <h2 style="font-family: sans-serif; color: #A9714B;">Suits</h2>
+        <a href="shop.html" style="font-family: sans-serif;">View all suits</a>
+    </div>
+    
+    <main>
+        <div class="all-cards">
+            <div class="card">
+                <div class="review-container">
+                    <p>Reviews: 4.8⭐</p>
+                </div>
+                <img src="image/14 - suit-1.png" class="img-2" onmouseover="showReview()" onmouseleave="hideReview()">
+                <div class="discription">
+                    <h3>Product Title</h3>
+                    <p>This is a short description about the product shown above</p>
+                    <a href="">View Product</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/45 - suit-2.png" class="img-2" >
+                <div class="discription">
+                    <h3>Product Title</h3>
+                    <p>This is a short description about the product shown above</p>
+                    <a href="">View Product</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/45 - suit-3.png" class="img-2">
+                <div class="discription">
+                    <h3>Product Title</h3>
+                    <p>This is a short description about the product shown above</p>
+                    <a href="">View Product</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/45 - suit-4.png" class="img-2">
+                <div class="discription">
+                    <h3>Product Title</h3>
+                    <p>This is a short description about the product shown above</p>
+                    <a href="">View Product</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <br>
+<!-- ************************  Footer  ************************ -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="col-1">
+                    <img class="foot-img" src="image/12 - brand-logo.svg" alt="logo">
+                </div>
+                <div class="col-2">
+                    <a href="aboutus.html">About Us</a>
+                    <a href="">Help</a>
+                    <a href="">Career</a>
+                    <p>©2022 Urban Edge. All Rights Reserved.<p>
+                </div>
+                <div class="col-3">
+                    <a href=""> <img href="" src="image/footer-icons/facebook.svg" alt="icon"> </a> 
+                    <a href=""> <img href="" src="image/footer-icons/youtube.svg" alt="icon"> </a>
+                    <a href=""> <img href="" src="image/footer-icons/twitter.svg" alt="icon"> </a>
+                    <a href=""> <img href="" src="image/footer-icons/instagram.svg" alt="icon"> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="Js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: #f6f6f2;
+}
+
+
+ /**************** for dark mode *******************/
+ .dark-body {
+    margin: 0;
+    background-color: #0e0e04;
+    color: #a9a9a9;
+}
+
+
+
+ /**************** Header: Logo and Nav *******************/
+ header{
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    /*box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.178);*/
+    height: 50px;
+}
+ .main-nav{
+    transition-duration:0.3s;
+    padding: 10px;
+    display: flex;
+    column-gap: 25px;
+}
+.main-nav a{
+    font-family: monospace;
+    text-decoration: none;
+    padding: 4px 10px;
+    font-size: 20px;
+    transition-duration:0.3s;
+}
+.main-nav a:hover{
+    color: #7f0000;
+}
+header svg :hover{
+    cursor: pointer;
+}
+#moon-icon{
+    display: none;
+}
+
+.a-home{
+    color:#141204 ;
+}
+.a-shop{
+    color: #E8985E;
+    border: solid #E8985E 2px;
+}
+.a-signup{
+    background-color: #262A10;
+    color: #ffffff;
+}
