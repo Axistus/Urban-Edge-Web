@@ -61,7 +61,7 @@ header svg :hover{
  /**************** Main Content section *******************/
 
 
- /************************ Intro Image ************************/
+ /************************ Work With Us  ************************/
 .imageContainer{
     width: 100%;
     height: 300px;
@@ -103,7 +103,6 @@ header svg :hover{
 .storyContainer{
     width: 100%;
     height: 25rem;
-    border: red solid;
     display: flex;
     justify-content: center;
 }
@@ -111,43 +110,92 @@ header svg :hover{
     display: flex;
     justify-content: center;
     max-width: 1000px;
-    border: solid yellow;
     align-items: center;
 }
 .storyText{
     width: 50%;
     height: 18rem;
-    border: green solid;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.storyText p{
+    padding-right: 2rem;
 }
 .storyPics{
     width: 50%;
     height: 18rem;
-    border: solid purple;
+    position: relative;
 }
 .storyImage1{
     height: 50%;
     width: 50%;
     object-fit: cover;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    position: absolute;
+    left: 13rem;
+    top: 2rem;
+    z-index: 3;
+    box-shadow: -2px 4px 20px 0px black;
 }
 .storyImage2{
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     object-fit: cover;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    position: absolute;
+    left: 3rem;
+    top: 7rem;
+    z-index: 1;
+    box-shadow: -2px 4px 20px 0px black;
 }
 .storyImage3{
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
     object-fit: cover;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    position: absolute;
+    top: 12rem;
+    left: 14rem;
+    z-index: 2;
+    box-shadow: -2px 4px 20px 0px black;
 }
 
 
+/************************ WHY Section ************************/
 
+.whyContainer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e4e4;
+    border: solid red;
+}
+.inner-whyContainer{
+    height: 500px;
+    max-width: 1000px;
+    /* background-color: #e5e4e4; */
+    border: solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whyText{
+    border: solid turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.whyText p{
+    text-align: center;
+    margin: 0rem 10rem 0rem 10rem;
+}
+.sliderCard{
+    border: solid purple;
+    height: 15rem;
+    width: 30rem;
+    margin-top: 2rem;
+}
 
 
 
