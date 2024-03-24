@@ -194,7 +194,44 @@ header svg :hover{
     border: solid purple;
     height: 15rem;
     width: 30rem;
+    border-radius: 20px;
+    /* box-shadow: 0px 5px 20px 1px #00000063; */
+    position: relative;
+}
+.whyPic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+.sliderWrap{
+    display: flex;
     margin-top: 2rem;
+    width: 1000px;
+    justify-content: space-between;
+}
+.leftBtn{
+    position: absolute;
+    top: 7rem;
+    right: 32rem;
+}
+.rightBtn{
+    position: absolute;
+    top: 7rem;
+    left: 32rem;
+}
+.miniPic-left{
+    border: solid purple;
+    height: 15rem;
+    width: 7.5rem;
+    border-radius: 20px 0px 0px 20px;
+}
+.miniPic-right{
+    border: solid purple;
+    height: 15rem;
+    width: 7.5rem;
+    border-radius: 0px 20px 20px 0px;
 }
 
 
