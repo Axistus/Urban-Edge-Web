@@ -168,19 +168,15 @@ header svg :hover{
     display: flex;
     justify-content: center;
     background-color: #e5e4e4;
-    border: solid red;
 }
 .inner-whyContainer{
     height: 500px;
-    max-width: 1000px;
-    /* background-color: #e5e4e4; */
-    border: solid green;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .whyText{
-    border: solid turquoise;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,12 +184,18 @@ header svg :hover{
 }
 .whyText p{
     text-align: center;
-    margin: 0rem 10rem 0rem 10rem;
+    margin: 0rem 22rem 0rem 22rem;
+}
+.sliderWrap{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 .sliderCard{
-    border: solid purple;
     height: 15rem;
-    width: 30rem;
+    width: 35rem;
     border-radius: 20px;
     /* box-shadow: 0px 5px 20px 1px #00000063; */
     position: relative;
@@ -206,26 +208,19 @@ header svg :hover{
     position: absolute;
     
 }
-.sliderWrap{
-    display: flex;
-    margin-top: 2rem;
-    width: 1000px;
-    justify-content: space-between;
-}
 .leftBtn{
     position: absolute;
     top: 7rem;
-    right: 32rem;
+    right: 36rem;
 }
 .rightBtn{
     position: absolute;
     top: 7rem;
-    left: 32rem;
+    left: 36rem;
 }
 .miniPic-left{
-    border: solid purple;
-    height: 15rem;
-    width: 7.5rem;
+    height: 12rem;
+    width: 20rem;
     border-radius: 20px 0px 0px 20px;
     position: relative;
 }
@@ -235,12 +230,10 @@ header svg :hover{
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     position: absolute;
-    /*opacity: 40%;*/
 }
 .miniPic-right{
-    border: solid purple;
-    height: 15rem;
-    width: 7.5rem;
+    height: 12rem;
+    width: 20rem;
     border-radius: 0px 20px 20px 0px;
     position: relative;
 }
@@ -250,7 +243,6 @@ header svg :hover{
     object-fit: cover;
     border-radius: 0px 20px 20px 0px;
     position: absolute;
-    /*opacity: 40%;*/
 }
 
 

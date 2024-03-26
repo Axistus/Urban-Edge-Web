@@ -1,4 +1,48 @@
+/////////////////Code for Dark Mode and light Mode///////////////////////////
 
+var sun =document.getElementById("sun-icon")
+var moon =document.getElementById("moon-icon")
+var darkBody=document.getElementsByTagName("body")[0]
+var moonColor = document.getElementById("moon-icon")
+var dark_a_home=document.querySelector(".a-home")
+var dark_whyContainer=document.querySelector(".whyContainer")
+
+function darkMode(){
+   sun.style.display="none"
+   moon.style.display="block"
+   darkBody.classList.toggle("dark-body")
+   moonColor.style.color = "#a9a9a9"
+   dark_whyContainer.style.backgroundColor="#00000069"
+                           
+   dark_a_home.style.color="#a9a9a9"
+   dark_a_home.addEventListener("mouseover",aHomered)
+   dark_a_home.addEventListener("mouseout",aHomeNotrRed)
+   function aHomered(){
+    dark_a_home.style.color="#7f0000"
+   }
+   function aHomeNotrRed(){
+    dark_a_home.style.color="#a9a9a9"
+   }
+}
+function lightMode(){
+    sun.style.display="block"
+    moon.style.display="none"
+    darkBody.classList.toggle("dark-body")
+    dark_whyContainer.style.backgroundColor="#e5e4e4"
+    
+    dark_a_home.style.color="#141204"
+    dark_a_home.addEventListener("mouseover",aHomered)
+    dark_a_home.addEventListener("mouseout",aHomeNotRed)
+    function aHomered(){
+     dark_a_home.style.color="#7f0000"
+    }
+    function aHomeNotRed(){
+     dark_a_home.style.color="#141204"
+    }
+ }
+
+
+///////////Code for Photo carousel////////////////////////
 //slelcting middle slider images
 var images = document.getElementsByClassName("whyPic")
 var imgCounter =2
@@ -32,16 +76,14 @@ for (var i=0; i<=4; i++){
         else{
             leftImages[i-1].style.opacity="0"
         }
-        
-         
     }
     else{
         //showing the middle index image
         images[i].style.opacity="1"
         //showing the image right of mid index
-        rightImages[i+1].style.opacity="1"
+        rightImages[i+1].style.opacity="50%"
         //showing the image left of mid index
-        leftImages[i-1].style.opacity="1"
+        leftImages[i-1].style.opacity="50%"
     }
 }
 
@@ -65,8 +107,8 @@ function rightClick (){
         leftCounter=0
     }
     images[imgCounter].style.opacity="1"
-    rightImages[rightCounter].style.opacity="1"
-    leftImages[leftCounter].style.opacity="1"
+    rightImages[rightCounter].style.opacity="50%"
+    leftImages[leftCounter].style.opacity="50%"
 }
 
 function leftClick(){
@@ -89,8 +131,8 @@ function leftClick(){
     }
 
     images[imgCounter].style.opacity="1"
-    rightImages[rightCounter].style.opacity="1"
-    leftImages[leftCounter].style.opacity="1"
+    rightImages[rightCounter].style.opacity="50%"
+    leftImages[leftCounter].style.opacity="50%"
 }
 
 

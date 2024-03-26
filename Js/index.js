@@ -34,7 +34,16 @@ function darkMode(){
    darkBody.classList.toggle("dark-body")
    darkTextvid.style.color="#a9a9a9"
    darkTextvidH1.style.color="#a3a3a3"
+   
    dark_a_home.style.color="#a9a9a9"
+   dark_a_home.addEventListener("mouseover",aHomered)
+   dark_a_home.addEventListener("mouseout",aHomeNotrRed)
+   function aHomered(){
+    dark_a_home.style.color="#7f0000"
+   }
+   function aHomeNotrRed(){
+    dark_a_home.style.color="#a9a9a9"
+   }
 
    for (var i = 0; i <=3 ; i++){
       darkSub[i].style.color ="#a9a9a9" 
@@ -47,7 +56,18 @@ function lightMode(){
     darkBody.classList.toggle("dark-body")
     darkTextvid.style="none"
     darkTextvidH1.style="none"
-    dark_a_home.style="none"
+    
+    dark_a_home.style.color="#141204"
+    dark_a_home.addEventListener("mouseover",aHomered)
+    dark_a_home.addEventListener("mouseout",aHomeNotRed)
+    function aHomered(){
+     dark_a_home.style.color="#7f0000"
+    }
+    function aHomeNotRed(){
+     dark_a_home.style.color="#141204"
+    }
+
+
     
     for (var i = 0; i <=3 ; i++){
         darkSub[i].style="none" 

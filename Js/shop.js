@@ -11,7 +11,16 @@ function lightMode(){
     sun.style.display="block"
     moon.style.display="none"
     darkBody.classList.toggle("dark-body")
-    dark_a_home.style="none"
+
+    dark_a_home.style.color="#141204"
+    dark_a_home.addEventListener("mouseover",aHomered)
+    dark_a_home.addEventListener("mouseout",aHomeNotRed)
+    function aHomered(){
+     dark_a_home.style.color="#7f0000"
+    }
+    function aHomeNotRed(){
+     dark_a_home.style.color="#141204"
+    }
 
     // Loop through each image and attach event listeners
     for (var i = 0; i < 8; i++) {
@@ -37,8 +46,17 @@ function darkMode(){
    sun.style.display="none"
    moon.style.display="block"
    darkBody.classList.toggle("dark-body")
-   dark_a_home.style.color="#a9a9a9"
    moonColor.style.color = "#a9a9a9"
+
+   dark_a_home.style.color="#a9a9a9"
+   dark_a_home.addEventListener("mouseover",aHomered)
+   dark_a_home.addEventListener("mouseout",aHomeNotrRed)
+   function aHomered(){
+    dark_a_home.style.color="#7f0000"
+   }
+   function aHomeNotrRed(){
+    dark_a_home.style.color="#a9a9a9"
+   }
 
    for (var i = 0; i < 8; i++) {
         
