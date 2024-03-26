@@ -71,12 +71,26 @@ function rightClick (){
 
 function leftClick(){
     images[imgCounter].style.opacity="0"
+    rightImages[rightCounter].style.opacity="0"
+    leftImages[leftCounter].style.opacity="0"
     
     imgCounter--;
+    rightCounter--;
+    leftCounter--;
+
     if(imgCounter<0){
-        imgCounter =4;
+        imgCounter =4
+    };
+    if(rightCounter<0){
+        rightCounter=4
+    };
+    if(leftCounter<0){
+        leftCounter=4
     }
+
     images[imgCounter].style.opacity="1"
+    rightImages[rightCounter].style.opacity="1"
+    leftImages[leftCounter].style.opacity="1"
 }
 
 
