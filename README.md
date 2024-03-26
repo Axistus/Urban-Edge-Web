@@ -1,2 +1,2 @@
 # Urban-Edge-Web
-Static Website Using HTML CSS JS
+Static Website Using HTML CSS and Vanilla JS
