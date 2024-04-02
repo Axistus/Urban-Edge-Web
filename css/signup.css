@@ -264,10 +264,12 @@ header svg :hover{
     justify-content: space-evenly;
     align-content: space-evenly;
 }
-.positionCard{
+.positionCardContainer{
     border: solid green;
     width: 25rem;
     height: 12rem;
+    border-radius: 20px;
+    display: grid;
 }
 
 
