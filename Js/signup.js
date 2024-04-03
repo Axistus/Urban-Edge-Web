@@ -6,6 +6,7 @@ var darkBody=document.getElementsByTagName("body")[0]
 var moonColor = document.getElementById("moon-icon")
 var dark_a_home=document.querySelector(".a-home")
 var dark_whyContainer=document.querySelector(".whyContainer")
+var posContainer = document.getElementsByClassName("positionCardContainer")
 
 function darkMode(){
    sun.style.display="none"
@@ -13,6 +14,10 @@ function darkMode(){
    darkBody.classList.toggle("dark-body")
    moonColor.style.color = "#a9a9a9"
    dark_whyContainer.style.backgroundColor="#00000069"
+   
+   for(var i = 0; i<=3 ; i++){
+    posContainer[i].style.backgroundColor="#141204"
+   }
                            
    dark_a_home.style.color="#a9a9a9"
    dark_a_home.addEventListener("mouseover",aHomered)
@@ -30,6 +35,10 @@ function lightMode(){
     darkBody.classList.toggle("dark-body")
     dark_whyContainer.style.backgroundColor="#e5e4e4"
     
+    for(var i = 0; i<=3 ; i++){
+        posContainer[i].style.backgroundColor="#e5e4e4"
+    }
+
     dark_a_home.style.color="#141204"
     dark_a_home.addEventListener("mouseover",aHomered)
     dark_a_home.addEventListener("mouseout",aHomeNotRed)

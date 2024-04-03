@@ -11,13 +11,6 @@ var productImg = document.querySelector(".img-2")
 productImg.addEventListener("mouseover",showReview)
 productImg.addEventListener("mouseout",hideReview)
 
-function showtext(){
-    console.log("Thank you for watching")
-}
-
-var video = document.querySelector(".vid")
-video.addEventListener("ended",showtext)
-
 
 var sun =document.getElementById("sun-icon")
 var moon =document.getElementById("moon-icon")
