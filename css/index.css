@@ -68,6 +68,24 @@ header svg :hover{
     margin: 50px auto;
     justify-content: space-between;
 }
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        translate: -100px;
+    }
+    75%{
+        opacity: 0.95;
+        translate: 10px;
+    }    
+    100%{
+        opacity: 1;
+        translate:0px;
+    }
+}
+.vid-text{
+    animation-duration: 2s;
+    animation-name: fadeInLeft;
+}
 .vid-text h1{
     font-family: sans-serif;
     font-size: 40px;
@@ -82,11 +100,27 @@ header svg :hover{
     color:black;
     font-family: serif;
 }
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        translate: 100px;
+    }
+    75%{
+        opacity: 0.95;
+        translate: -10px;
+    }    
+    100%{
+        opacity: 1;
+        translate:0px;
+    }
+}
 .vid{ 
     width: 40%;
     height: 100%;
     border-radius: 20px;
     align-self: center;
+    animation-duration: 2s;
+    animation-name: fadeInRight;
 }
 .member-btn{
     width: 250px;

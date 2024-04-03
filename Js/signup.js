@@ -55,6 +55,8 @@ var rightCounter =3
 var leftImages =document.getElementsByClassName("LeftwhyPic")
 var leftCounter = 1
 
+//slecting div for animation
+var imgDiv = document.getElementsByClassName[0]
 
 for (var i=0; i<=4; i++){
     if(i!=2){
@@ -106,9 +108,12 @@ function rightClick (){
     if(leftCounter==5){
         leftCounter=0
     }
+    
     images[imgCounter].style.opacity="1"
+    images[imgCounter].style.animation="fade 0.5s"
     rightImages[rightCounter].style.opacity="50%"
     leftImages[leftCounter].style.opacity="50%"
+    
 }
 
 function leftClick(){
@@ -131,6 +136,7 @@ function leftClick(){
     }
 
     images[imgCounter].style.opacity="1"
+    images[imgCounter].style.animation="fade 0.5s"
     rightImages[rightCounter].style.opacity="50%"
     leftImages[leftCounter].style.opacity="50%"
 }
