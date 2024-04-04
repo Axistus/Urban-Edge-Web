@@ -286,3 +286,64 @@ footer{
 .col-3 img{
     padding-right: 3rem;
 }
+
+/****************Mobile Devices*********************/
+
+/*double extra large*/
+/*@media (max-width: 1536px){
+/*    header {
+/*        max-width: 960px;;
+/*    }
+/*    #intro {
+/*        max-width: 949px;
+/*        margin-left: 5rem;
+/*    }
+/*    .vid-text p {
+/*        font-size: 13px;
+/*
+/*    }
+/*    #information{
+/*        max-width: 1117px;
+/*    }
+/*    #container {
+/*        max-width: 933px;
+/*    }
+/*    .product-nav {
+/*        margin: 5rem 0px 20px 89px;
+/*        width: 936px;
+/*    }
+/*    main {
+/*        width: 1106px;
+/*    }
+/*
+/*}
+/*/*extra large*/
+/*@media (max-width: 1280px){
+/*    header {
+/*        max-width: 1024px;
+/*    }
+/*}
+/*/*large*/
+/*@media (max-width: 1024px){
+/*    header {
+/*        max-width: 768px;
+/*    }
+/*}
+/*/*medium*/
+/*@media (max-width: 768px){
+/*    header {
+/*        max-width: 640px;
+/*    }
+/*}
+/*/*small*/
+/*@media (max-width: 640px){
+/*    header {
+/*        max-width: 475px;
+/*    }
+/*}
+/*/*extra small*/
+/*@media (max-width: 475px ){
+/*    header {
+/*        max-width: 100%;
+/*    }
+/*}
