@@ -454,3 +454,31 @@ footer{
 .col-3 img{
     padding-right: 3rem;
 }
+
+
+
+@media  screen and (max-width:1100px){
+    body {
+        width: fit-content;
+    }
+}
+
+@media  screen and (max-width:350px){
+    .textContainer h1 {
+        font-size: 50px;
+    }
+    .textContainer p {
+        font-size: 20px;
+        width: 700px;
+    }
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .innerStoryContainer {
+        flex-direction: column;
+    }
+
+}
