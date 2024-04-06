@@ -79,3 +79,8 @@ function darkMode(){
 }
 
 
+//footer buttons 
+function promtFun (){
+    alert("Coming Soon")
+}
+

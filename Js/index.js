@@ -66,3 +66,9 @@ function lightMode(){
         darkSub[i].style="none" 
      }
  }
+
+ //footer buttons 
+function promtFun (){
+    alert("Coming Soon")
+}
+

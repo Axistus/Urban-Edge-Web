@@ -361,51 +361,6 @@ header svg :hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /****************** Footer *******************/
 footer{
     background-color: #141204;
@@ -454,15 +409,12 @@ footer{
 .col-3 img{
     padding-right: 3rem;
 }
+.prompt:hover{
+    cursor: pointer;
+  }
+  
 
-
-
-@media  screen and (max-width:1100px){
-    body {
-        width: fit-content;
-    }
-}
-
+/**************Responsive****************/
 @media  screen and (max-width:350px){
     .textContainer h1 {
         font-size: 50px;
@@ -481,4 +433,10 @@ footer{
         flex-direction: column;
     }
 
+}
+
+@media  screen and (max-width:1100px){
+    body {
+        width: fit-content;
+    }
 }

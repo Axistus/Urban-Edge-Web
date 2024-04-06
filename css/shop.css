@@ -133,3 +133,7 @@ footer{
 .col-3 img{
     padding-right: 3rem;
 }
+.prompt:hover{
+    cursor: pointer;
+  }
+  

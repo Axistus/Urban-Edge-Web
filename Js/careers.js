@@ -8,6 +8,7 @@ var dark_a_home=document.querySelector(".a-home")
 var dark_whyContainer=document.querySelector(".whyContainer")
 var posContainer = document.getElementsByClassName("positionCardContainer")
 
+
 function darkMode(){
    sun.style.display="none"
    moon.style.display="block"
@@ -152,5 +153,8 @@ function leftClick(){
 
 
 
-
+//footer buttons 
+function promtFun (){
+    alert("Coming Soon")
+}
 
