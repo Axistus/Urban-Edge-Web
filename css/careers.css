@@ -434,9 +434,34 @@ footer{
     }
 
 }
-
+/* Responsive */
 @media  screen and (max-width:1100px){
     body {
         width: fit-content;
     }
+}
+@media  screen and (max-width:425px){
+    .textContainer h1 {
+        font-size: 50px;
+    }
+    .textContainer p {
+        font-size: 16px;
+    }
+    .storyText h2 {
+        font-size: 60px;
+    }
+    .storyText p {
+        font-size: 21px;
+    }
+    .whyText h2 {
+        font-size: 50px;
+    }
+    .whyText p {
+        font-size: 17px;
+    }
+    .positionsHead h2 {
+        font-size: 50px;
+    }
+    
+    
 }
