@@ -421,7 +421,7 @@ footer{
         width: fit-content;
     }
 }
-@media  screen and (max-width:425px){
+/* @media  screen and (max-width:425px){
     .textContainer h1 {
         font-size: 50px;
     }
@@ -445,9 +445,9 @@ footer{
     }
     
     
-}
+} */
 
-@media  screen and (max-width:350px){
+@media  screen and (max-width:425px){
     .textContainer {
         width: 100%;
         top: 15%;
