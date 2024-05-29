@@ -4,6 +4,15 @@ var darkBody=document.getElementsByTagName("body")[0]
 var dark_a_home=document.querySelector(".a-home")
 var moonColor = document.getElementById("moon-icon")
 
+// import { darkModeCounter } from "./index"
+// if(darkModeCounter==2){
+//     darkMode()
+// }
+// else{
+//     lightMode()
+// }
+
+
 //selecting pics for shadow on hover effect
 var images = document.getElementsByClassName("prod");
 
@@ -27,7 +36,7 @@ function lightMode(){
         const image = images[i];
         image.addEventListener("mouseover", function() {
             //Confirming within the event listener which img is targetted
-            //console.log("Targeted Image (within event listener):",      this); // 'this' refers to the current image
+            //console.log("Targeted Image (within event listener):", this); // 'this' refers to the current image
             image.style.boxShadow="10px 10px 25px rgba(0, 0, 0, 0.  646)";
             
             }
@@ -35,7 +44,7 @@ function lightMode(){
 
         image.addEventListener("mouseout", function() {
             //Confirming within the event listener which img is targetted
-            //console.log("Targeted Image (within event listener):",      this); // 'this' refers to the current image
+            //console.log("Targeted Image (within event listener):", this); // 'this' refers to the current image
             image.style.boxShadow="none";
             }
         );

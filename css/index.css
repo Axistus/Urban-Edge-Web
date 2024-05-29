@@ -347,8 +347,8 @@ footer{
         align-content: center;
     }
     .card {
-        width: 400px;
-        height: 600px;
+        width: 650px;
+        height: 850px;
         margin-bottom: 5rem;
     }
     .img-2 {
@@ -357,8 +357,13 @@ footer{
         object-fit: cover;
     }
     .discription h3 {
-        font-size: 30px;
-        height: 20px;
+        font-size: 40px;
+    }
+    .discription p {
+        font-size: 20px;
+    }
+    .discription a {
+        font-size: 25px;
     }
 }
 /*350px*/

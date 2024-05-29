@@ -59,16 +59,14 @@ function lightMode(){
     function aHomeNotRed(){
      dark_a_home.style.color="#141204"
     }
-
-
     
     for (var i = 0; i <=3 ; i++){
         darkSub[i].style="none" 
      }
+    
  }
 
  //footer buttons 
 function promtFun (){
     alert("Coming Soon")
 }
-

@@ -415,26 +415,7 @@ footer{
   
 
 /**************Responsive****************/
-@media  screen and (max-width:350px){
-    .textContainer h1 {
-        font-size: 50px;
-    }
-    .textContainer p {
-        font-size: 20px;
-        width: 700px;
-    }
-    .textContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .innerStoryContainer {
-        flex-direction: column;
-    }
 
-}
-/* Responsive */
 @media  screen and (max-width:1100px){
     body {
         width: fit-content;
@@ -465,3 +446,70 @@ footer{
     
     
 }
+
+@media  screen and (max-width:350px){
+    .textContainer {
+        width: 100%;
+        top: 15%;
+        left: unset;
+    }
+    .textContainer h1 {
+        font-size: 75px;
+    }
+    .textContainer p {
+        font-size: 21px;
+    }
+
+    .innerStoryContainer {
+        flex-direction: column;
+    }
+    .storyPics {
+        display: none;
+    }
+    .storyText {
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .storyText p {
+        font-size: 26px;
+    }
+    .whyContainer {
+        margin-top: 6rem;
+    }
+    .whyText h2 {
+        font-size: 75px;
+    }
+    .whyText p {
+        display: none;
+    }
+    .positionsHead h2 {
+        font-size: 75px;
+    }
+
+    .positionContainer {
+        height: 126rem;
+        justify-content: unset;
+    }
+    .positionWrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 3rem;
+        align-items: center;
+    }
+    .positionCardContainer {
+            width: 45rem;
+            height: 24rem;
+    }
+    .posName h2 {
+        font-size: 40px;
+    }
+    .posDescrip p {
+        font-size: 20px;
+    }
+    .posIcon img {
+        width: 190px;
+        height: 231px;
+    }
+
+} 
